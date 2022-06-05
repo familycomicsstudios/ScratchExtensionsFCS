@@ -38,7 +38,7 @@ class ScratchMath {
     }
   }
   infinity() {
-    return math.pow(2,1000)
+    return Math.pow(2,1000)
   }
 }
 Scratch.extensions.register(new ScratchMath());
