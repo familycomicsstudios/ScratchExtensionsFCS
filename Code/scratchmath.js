@@ -22,7 +22,8 @@ class ScratchMath {
         {
           opcode: 'infinity',
           blockType: Scratch.BlockType.REPORTER,
-          text: 'Infinity'
+          text: 'Infinity',
+          disableMonitor: true
         }
       ]
     };
@@ -38,7 +39,7 @@ class ScratchMath {
     }
   }
   infinity() {
-    return Math.pow(2,1000)
+    return Math.pow(200,1000)
   }
 }
 Scratch.extensions.register(new ScratchMath());
