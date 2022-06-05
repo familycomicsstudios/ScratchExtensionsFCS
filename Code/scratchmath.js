@@ -18,6 +18,11 @@ class ScratchMath {
               defaultValue: 'Second value'
             }
           }
+        },
+        {
+          opcode: 'Infinity',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'Infinity'
         }
       ]
     };
@@ -27,10 +32,13 @@ class ScratchMath {
     if (args.ONE ^ args.TWO > 0) {
 
     return true;
-}
-else {
-return false;
-}
+    }
+    else {
+    return false;
+    }
+  }
+  infinity() {
+    return math.pow(2,1000)
   }
 }
 Scratch.extensions.register(new ScratchMath());
