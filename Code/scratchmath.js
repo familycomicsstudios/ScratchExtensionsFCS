@@ -112,7 +112,7 @@ class ScratchMath {
           opcode: 'mathrandom',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Random',
-          disableMonitor: true;
+          disableMonitor: true
           
         },
       ]
