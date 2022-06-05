@@ -20,7 +20,7 @@ class ScratchMath {
           }
         },
         {
-          opcode: 'Infinity',
+          opcode: 'infinity',
           blockType: Scratch.BlockType.REPORTER,
           text: 'Infinity'
         }
