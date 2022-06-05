@@ -113,7 +113,7 @@ class ScratchMath {
           blockType: Scratch.BlockType.REPORTER,
           text: 'Random',
           disableMonitor: true;
-          }
+          
         },
       ]
     };
