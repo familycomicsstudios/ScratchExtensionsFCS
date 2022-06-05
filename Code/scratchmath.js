@@ -108,6 +108,13 @@ class ScratchMath {
             }
           }
         },
+        {
+          opcode: 'mathrandom',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'Random',
+          disableMonitor: true;
+          }
+        },
       ]
     };
   }
@@ -144,6 +151,9 @@ class ScratchMath {
   }
   rootthingy(args) {
     return args.TWO ** (1/args.ONE);
+  }
+  mathrandom() {
+    return Math.random();
   }
 }
 Scratch.extensions.register(new ScratchMath());
