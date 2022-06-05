@@ -24,7 +24,30 @@ class ScratchMath {
           blockType: Scratch.BlockType.REPORTER,
           text: 'Infinity',
           disableMonitor: true
-        }
+        },
+         {
+          opcode: 'pi',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'Pi',
+          disableMonitor: true
+        },
+        {
+          opcode: 'e',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'E',
+          disableMonitor: true
+        },
+        {
+          opcode: 'negate',
+          blockType: Scratch.BlockType.REPORTER,
+          text: '-[ONE]',
+          arguments: {
+            ONE: {
+              type: Scratch.ArgumentType.NUMBER,
+              defaultValue: '5'
+            }
+          }
+        },
       ]
     };
   }
@@ -40,6 +63,15 @@ class ScratchMath {
   }
   infinity() {
     return Math.pow(200,1000)
+  }
+  pi() {
+    return 3.14159265359;
+  }
+  e() {
+    return 2.718281828459045;
+  }
+  negate(args) {
+    return 0 - args.ONE;
   }
 }
 Scratch.extensions.register(new ScratchMath());
