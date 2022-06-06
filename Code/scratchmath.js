@@ -4,7 +4,7 @@ class ScratchMath {
       id: 'scratchmath', // change this if you make an actual extension!
       name: 'Math',
       color1: #24fc03,
-      color2: #3adb21
+      color2: #3adb21,
       blocks: [
         {
           opcode: 'xor',
