@@ -3,6 +3,8 @@ class ScratchMath {
     return {
       id: 'scratchmath', // change this if you make an actual extension!
       name: 'Math',
+      color1: '#18e70d',
+      color2: '#0fcf0a',
       blocks: [
         {
           opcode: 'xor',
