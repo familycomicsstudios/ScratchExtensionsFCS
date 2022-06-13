@@ -6,3 +6,5 @@ To use the file, just find the file, get a direct link, and add the extension to
 Utils - https://turbowarp.org/editor?extension=https://familycomicsstudios.github.io/ScratchExtensionsFCS/Code/utils.js
 
 Math + Utils - https://turbowarp.org/editor?extension=https://familycomicsstudios.github.io/ScratchExtensionsFCS/Code/utils.js&extension=https%3A%2F%2Ffamilycomicsstudios.github.io%2FScratchExtensionsFCS%2FCode%2Fscratchmath.js
+
+JavaScript - https://turbowarp.org/editor?extension=https%3A%2F%2Ffamilycomicsstudios.github.io%2FScratchExtensionsFCS%2FCode%2Fevaluation.js
